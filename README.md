@@ -1,6 +1,8 @@
 # Server Status Reporting
 Prints server status and information in chat.
 
+*Idea inspired by Possession (PŠΣ™)*
+
 *Compiled in SM 1.11.6881*
 
 # Image:
