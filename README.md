@@ -4,7 +4,7 @@ Prints server status and information in chat.
 *Compiled in SM 1.11.6881*
 
 # Image:
-![Sample status report](https://ibb.co/KDPcX48)
+![Sample status report](https://i.ibb.co/xYkKD9r/image.png)
 
 ## List of Information Reported (currently)
 - Server time
