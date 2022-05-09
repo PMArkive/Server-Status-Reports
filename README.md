@@ -1,6 +1,8 @@
 # Server Status Reporting
 Prints server status and information in chat.
 
+*Compiled in SM 1.11.6881*
+
 ## List of Information Reported (currently)
 - Server time
 - Player Count
