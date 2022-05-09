@@ -8,5 +8,8 @@ Prints server status and information in chat.
 - Edict Count
 
 ## Change Log
-#### 1.0
+### 1.0
 - Initial commit
+
+### 1.1
+- Added feature to toggle displaying certain information
