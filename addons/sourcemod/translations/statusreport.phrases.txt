@@ -1,0 +1,41 @@
+"Phrases"
+{
+	"Report Header"
+	{
+		"en"		"{lightblue}▶----------{darkred}[ {green}SERVER STATUS {darkred}]{lightblue}----------◀"
+	}
+	
+	"Server Time"
+	{
+		// 1: Current server time
+		"#format"	"{1:s}"
+		"en"		"{lightblue}Current Time: {yellow}{1:s}"
+	}
+	
+	"Player Amount"
+	{
+		// 1: Current player count
+		// 2: Maximum players on the server
+		"#format"	"{1:d},{2:d}"
+		"en"		"{lightblue}Players: {yellow}{1:d}/{2:d}"
+	}
+	
+	"Current Map"
+	{
+		// 1: Map name
+		"#format"	"{1:s}"
+		"en"		"{lightblue}Map: {yellow}{1:s}"
+	}
+	
+	"Edict Count"
+	{
+		// 1: Number of Edicts on the Server
+		"#format"	"{1:d}"
+		"en"		"{lightblue}Edicts: {yellow}{1:d}"
+	}
+	
+	"Report Footer"
+	{
+		"en"	"{lightblue}▶--------------------------------------------◀"
+	}
+}
