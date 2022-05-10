@@ -47,6 +47,18 @@ stock bool IsValidClient(int client)
 	return true;
 }
 
+// GetEdictCount function
+stock int GetEdictCount()
+{
+	int EdictCount = 0;
+	for (int entity = 0; entity <= 2048; entity++)
+	{
+		if (IsValidEdict(entity))
+			EdictCount++;
+	}
+	return EdictCount;
+}
+
 // Create timer when plugin config is executed
 public void OnConfigsExecuted()
 {
@@ -80,7 +92,7 @@ public Action StatusReport(Handle timer)
 		if (g_cShowMap.BoolValue)
 			CPrintToChatAll("%t", "Current Map", map);
 		if (g_cShowEdict.BoolValue)
-			CPrintToChatAll("%t", "Edict Count", GetEntityCount());
+			CPrintToChatAll("%t", "Edict Count", GetEdictCount());
 		if (g_cShowPadding.BoolValue)
 			CPrintToChatAll("%t", "Report Footer");
 		
