@@ -12,6 +12,13 @@
 		"en"		"{lightblue}Current Time: {yellow}{1}"
 	}
 	
+	"Server Uptime"
+	{
+		// 1: Server Uptime
+		"#format"	"{1:s}"
+		"en"		"{lightblue}Server Uptime: {yellow}{1}"
+	}
+	
 	"Player Amount"
 	{
 		// 1: Current player count
