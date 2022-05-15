@@ -11,16 +11,20 @@ Prints server status and information in chat.
 
 # Plugin CVars
 **Plugin Functionality ConVars**
-`sm_status_enable` - Enable status report messages in chat? (0 - Disable | 1 - Enable)
-`sm_status_update` - Interval between each status report in chat
+Cvar | Description
+--- | ---
+`sm_status_enable` | Enable status report messages in chat? (0 - Disable | 1 - Enable)
+`sm_status_update` | Interval between each status report in chat
 
 **Status Report ConVars**
-`sm_status_edict` - Print server edict count in status reports?
-`sm_status_map` - Print current map name in status reports?
-`sm_status_padding` - Enable header/footer in status reports?
-`sm_status_players` - Print player count in status reports?
-`sm_status_time` - Print current server time in status reports?
-`sm_status_uptime` - Print server uptime in status reports?
+Cvar | Description
+--- | ---
+`sm_status_edict` | Print server edict count in status reports?
+`sm_status_map` | Print current map name in status reports?
+`sm_status_padding` | Enable header/footer in status reports?
+`sm_status_players` | Print player count in status reports?
+`sm_status_time` | Print current server time in status reports?
+`sm_status_uptime` | Print server uptime in status reports?
 
 # List of Information Reported
 - Server time
