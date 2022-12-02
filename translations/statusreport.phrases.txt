@@ -1,0 +1,42 @@
+"Phrases"
+{
+	"Report Header"
+	{
+		"en"		"▶----------[ {green}Status Report {default}]----------◀"
+	}
+	
+	"Server Time"
+	{
+		// 1: Current server time
+		"#format"	"{1:s}"
+		"en"		"Current Time: {green}{1}"
+	}
+	
+	"Server Uptime"
+	{
+		// 1: Server Uptime
+		"#format"	"{1:s}"
+		"en"		"Server Uptime: {green}{1}"
+	}
+	
+	"Player Amount"
+	{
+		// 1: Current player count, 2: Maximum players on the server
+		"#format"	"{1:d},{2:d}"
+		"en"		"Players: {green}{1}/{2}"
+	}
+	
+	"Current Map"
+	{
+		// 1: Map name
+		"#format"	"{1:s}"
+		"en"		"Map: {green}{1}"
+	}
+	
+	"Edict Count"
+	{
+		// 1: Number of Edicts on the Server
+		"#format"	"{1:d}"
+		"en"		"Edicts: {green}{1}"
+	}
+}
